@@ -1,0 +1,17 @@
+#### To load a pretrained model: ####
+opt = {gupId = 1, runningType = 'load', 'loadEpoch', 1/0}
+dofile 'script/script_crossconv_multi2_jwu_gameh4all.lua'
+
+#### To test a pretrained model: ####
+opt = {gupId = 1, runningType = 'test', 'loadEpoch', 1/0}
+dofile 'script/script_crossconv_multi2_jwu_gameh4all.lua'
+
+#### To train the model: ####
+opt = {gupid = 1, runningtype = 'test', 'loadepoch', -1}
+dofile 'script/script_crossconv_multi2_jwu_gameh4all.lua'
+
+#### To restart previous training: ####
+opt = {gupid = 1, runningtype = 'test', 'loadepoch', 1/0}
+dofile 'script/script_crossconv_multi2_jwu_gameh4all.lua'
+
+
