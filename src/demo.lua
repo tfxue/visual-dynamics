@@ -1,9 +1,12 @@
+-------------------- Options --------------------------------------
 useCuda = true
 gpuId = 1           -- GPU device ID
-
--- to delete
-debugger = require 'fb.debugger'
-package.loaded['utilfunc'] = nil
+demo = 'all'        -- 'all', 'demo1', 'demo2', 'demo3'
+modeldir = '../models/'
+datadir = '../data/'
+outdirRoot = '../output/'
+createGIF = true -- Set this to true if you have installed ImageMagick
+                 -- http://git.imagemagick.org/repos/ImageMagick
 
 -------------------- Initialization --------------------------------------
 print '==> Initializing...'
@@ -14,13 +17,6 @@ if useCuda then require 'cudnn' end
 if useCuda then require 'cunn' end
 require 'layers/nnlayer_ext'
 ut = require 'utilfunc'
-
-demo = 'all'       -- 'all', 'demo1', 'demo2', 'demo3'
-modeldir = '../models/'
-datadir = '../data/'
-outdirRoot = '../output/'
-createGIF = true -- Set this to true if you have installed ImageMagick
-                          -- http://git.imagemagick.org/repos/ImageMagick
 
 if useCuda then
   cutorch.setDevice(gpuId)
