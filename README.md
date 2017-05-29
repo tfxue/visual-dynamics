@@ -17,11 +17,11 @@ Our current release has been tested on Ubuntu 14.04.
 
 #### Clone the repository
 ```sh
-git clone https://github.com/tfxue/visual-dynamics.git
+git clone git@github.com:tfxue/visual-dynamics.git 
 ```
 #### Download pretrained models (1.4GB) 
 ```sh
-download_models.sh
+./download_models.sh
 ``` 
 
 #### Run test code
