@@ -17,12 +17,11 @@ Our current release has been tested on Ubuntu 14.04.
 
 #### Clone the repository
 ```sh
-git clone git@github.com:jiajunwu/3dinn.git
+git clone https://github.com/tfxue/visual-dynamics.git
 ```
 #### Download pretrained models (1.4GB) 
 ```sh
-cd 3dinn
-./download_models.sh
+download_models.sh
 ``` 
 
 #### Run test code
