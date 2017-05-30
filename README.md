@@ -19,7 +19,7 @@ Our current release has been tested on Ubuntu 14.04.
 ```sh
 git clone git@github.com:tfxue/visual-dynamics.git 
 ```
-#### Download pretrained models (60MB) 
+#### Download pretrained models and sample vectors (85MB) 
 ```sh
 cd visual-dynamics
 ./download_models.sh
