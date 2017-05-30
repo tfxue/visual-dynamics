@@ -10,7 +10,7 @@ http://visualdynamics.csail.mit.edu/
 We use Torch 7 (http://torch.ch) for our implementation.
 
 #### Imagemagick (optional)
-We use the convert toolbox in ['Imagemagick'](http://www.imagemagick.com/) to generate gif image for visualization. See demo.lua about how to disable it.
+We use the convert toolbox in ['Imagemagick'](http://www.imagemagick.com/) to generate gif images for visualization. See demo.lua about how to disable it.
 
 ## Installation
 Our current release has been tested on Ubuntu 14.04.
@@ -31,7 +31,7 @@ cd src
 th demo.lua
 ```
 
-There are few options in demo.lua:
+There are a few options in demo.lua:
 
 **useCuda**: Set to false if not using Cuda
 
