@@ -26,7 +26,7 @@ cd visual-dynamics
 ``` 
 
 #### Run test code
-```lua
+```sh
 cd src
 th demo.lua
 ```
