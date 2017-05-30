@@ -39,9 +39,9 @@ There are a few options in demo.lua:
 
 **demo**: Set it to 'all' to run all demos. Set it to 'demo?' to run a specific demo
 
-**modeldir, datadir, outputdirRoot**: directories that stores model files, input files, and output files
+**modeldir, datadir, outputdirRoot**: Directories that store models, input files, and output files
 
-**createGIF**: Generate gif visualization. This requires Imagemagick. Set it to false if Imagemagick is not installed.
+**createGIF**: Generate gif visualizations. This requires Imagemagick. Set it to false if Imagemagick is not installed.
 
 
 ## Sample input & output
